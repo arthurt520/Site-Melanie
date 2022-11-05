@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, input, textarea{
+    font-family:'Roboto', sans-serif;
+}
+
+header{
+    background-color: #b85050;
+    color:#fff;
+    font-family: 'Bungee', cursive;
+    padding:16px 0px;
+}
+
+header nav li{
+    display: inline;
+    margin-right:18px;
+    font-size: 22px;
+}
+
+header nav li a{
+    color:#fff;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Bungee', cursive;
+    color:#b85050;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px;
+}
+
+.img-melanie{
+    width:30%;
+    margin-left:32px;
+}
+
+.texto{
+    margin-left: 32px;
+}
+
+.texto h2, h3, .texto p, p{
+    margin-bottom: 8px;
+    color:#b85050;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto p{
+    margin-bottom:8px;
+}
+
+section .container{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+form input, form textarea, form button{
+    display:block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding:6px;
+}
+
+.form-melanie h2{
+    margin-bottom: 8px;
+}
+
+.redes-sociais-links img{
+    width:28px;
+}
+
+.redes-sociais-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.form-melanie input{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-melanie button{
+    background-color: #b85050;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    border:0px;
+}
+
+.form-melanie button:hover{
+    background-color: #c96b6b;
+    cursor: pointer;
+}
+
+.form-melanie textarea{
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus{
+    outline-color:#b85050;
+}
+#contato{
+    margin-left:28px;
+}
+
+footer{
+    background-color: #b85050;
+    color:#fff;
+    padding:16px 0;
+}
